@@ -76,7 +76,7 @@ export default function AdminDashboard() {
                                                     'bg-gray-100 text-gray-700'
                                                 }`}>
                                                     {u.role.substring(0, 4)}
-                                                </span>
+                                              </span>
                                             </td>
                                         </tr>
                                     ))}
