@@ -1,4 +1,4 @@
-FROM maven:3.9.6-amazoncorretto-23 AS build
+FROM maven:3.9.9-amazoncorretto-23 AS build
 WORKDIR /app
 COPY pom.xml .
 RUN mvn dependency:go-offline -B
