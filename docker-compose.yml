@@ -82,9 +82,9 @@ services:
       mongo-db:
         condition: service_healthy
     environment:
-      MONGO_URI: mongodb://mongo-db:27017/eventzen_bookings
+      MONGO_URI: mongodb+srv://SushmitaNag:7WKG5nIXOP2TkbfD@capsronecluster.y6gybzg.mongodb.net/eventzen_bookings?retryWrites=true&w=majority
       PORT: 3000
-      JWT_SECRET: eventzen_super_secret_key_2024_make_it_long
+      JWT_SECRET: eventzen_super_secret_key_2026_make_it_long
 
   api-gateway:
     build: ./api-gateway
